@@ -1,0 +1,21 @@
+{
+    "name": "asmpromo/mvc-advanced",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "1naesis",
+            "email": "1naesis@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0",
+        "gabordemooij/redbean": "dev-master",
+        "phpmailer/phpmailer": "dev-master"
+
+    },
+    "autoload": {
+        "psr-4": {"Component\\": "components/"}
+    }
+}
